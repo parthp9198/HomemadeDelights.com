@@ -68,7 +68,7 @@
         }
         
         .modal-content {
-            background-color: white;
+            background-color: Blue;
             margin: 5% auto;
             padding: 0;
             border-radius: 20px;
@@ -131,7 +131,7 @@
             top: 20px;
             right: 20px;
             padding: 15px 25px;
-            background: white;
+            background: yellow;
             border-radius: 10px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.2);
             display: none;
@@ -178,7 +178,7 @@
                     <a href="#about" class="text-gray-700 hover:text-purple-600 transition">About</a>
                     <a href="#contact" class="text-gray-700 hover:text-purple-600 transition">Contact</a>
                 </div>
-                <button onclick="openOrderModal()" class="btn-primary text-white px-6 py-2 rounded-full font-semibold">
+                <button onclick="openOrderModal()" class="btn-primary text-black px-6 py-2 rounded-full font-semibold">
                     Order Now
                 </button>
             </div>
@@ -186,7 +186,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-gradient text-white pt-24 pb-20">
+    <section id="home" class="hero-gradient text-black pt-24 pb-20">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0 fade-in">
@@ -213,7 +213,7 @@
     </section>
 
     <!-- Features -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-blue">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-12">
                 <div class="text-center fade-in">
